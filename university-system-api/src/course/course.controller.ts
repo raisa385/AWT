@@ -9,7 +9,7 @@ export class CourseController {
   @Get(':id')
   getCourseByID(@Param('id') id:string){return this.courseService.getCourseById(id);}
   @Post()
-  createCourse(@Body() data:any):string {return this.courseService.createCourse(data);}
+  createCourse(@Body() data:{name:string, code:string}):any {return this.courseService.createCourse(data.name, data.code);}
 
 
 
