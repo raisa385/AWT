@@ -11,7 +11,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
     host:'localhost',
     username:'postgres',
     password:'ch@ch@123',
-    database:'faculties',
+    database:'FM_db',
     autoLoadEntities:true,
     synchronize:true,
   })],
