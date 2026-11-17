@@ -1,0 +1,13 @@
+tsc -v
+npm -g typescript
+
+nest new project-name
+cd project-name
+npm run start:dev
+nest g resource name --no-spec
+
+npm i class-validator class-transformer
+npm i @nestjs/platform-express multer 
+npm i -D @types/multer @types/express
+npm i @nestjs/typeorm typeorm pg
+npm i @nestjs/mapped-types
